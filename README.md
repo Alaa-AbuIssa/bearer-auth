@@ -9,12 +9,12 @@ we will be building an Auth Api server using best practices, including server mo
 
 ## UML 
 
-<img src="src/Flowchart.png" />
+<img src="src/Flowchartlab7.png" />
 
 ## LINKS :
 
-Heroku URL : https://alaa-basic-auth.herokuapp.com/
+Heroku URL : https://alaa-bearer-auth.herokuapp.com/
 
-Github Actions : https://github.com/Alaa-AbuIssa/basic-auth/actions
+Github Actions : https://github.com/Alaa-AbuIssa/bearer-auth/actions
 
-Pull Request: https://github.com/Alaa-AbuIssa/basic-auth/pull/1
+Pull Request: https://github.com/Alaa-AbuIssa/bearer-auth/pull/1
