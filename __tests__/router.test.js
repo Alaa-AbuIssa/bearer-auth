@@ -1,10 +1,13 @@
 'use strict';
 
+
+/// from starter code 
+
 process.env.SECRET = "toes";
 
-const server = require('../../../src/server.js').server;
+const server = require('../src/server').server;
 const supergoose = require('@code-fellows/supergoose');
-const bearer = require('../../../src/auth/middleware/bearer.js');
+const bearer = require('../src/auth/middleware/bearer');
 
 const mockRequest = supergoose(server);
 

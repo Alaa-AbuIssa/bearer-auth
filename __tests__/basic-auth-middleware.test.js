@@ -1,8 +1,10 @@
 'use strict';
 
+// from starter code 
+
 require('@code-fellows/supergoose');
-const middleware = require('../../../src/auth/middleware/basic.js');
-const Users = require('../../../src/auth/models/users');
+const middleware = require('../src/auth/middleware/basic');
+const Users = require('../src/auth/models/users');
 
 let users = {
   admin: { username: 'admin', password: 'password' },

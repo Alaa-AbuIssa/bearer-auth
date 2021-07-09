@@ -8,7 +8,9 @@ module.exports = async (req, res, next) => {
   if (basic[0] !== 'Basic') {
     next('Invalid Login2');
     return;
-  } let [user, pass] = base64.decode(basic[1]).split(':');
+  } 
+  
+  let [user, pass] = base64.decode(basic[1]).split(':');
   console.log([user, pass]);
 
   try {
